@@ -287,9 +287,10 @@ h1 {
 		transform: translateX();
 	}
 	100% {
-		transform: translateX(-50%);
+		transform: translateX(-30%);
 	}
 }
+
 
 h2 {
 	font-size:64px;
@@ -339,6 +340,7 @@ h3 {
 					padding:10px 20px;
 					border-radius:15px;
 					margin-bottom:10px;
+                    transition: ease 0.3s all;
 				}
 			}
 		}
@@ -628,3 +630,4 @@ h3 {
     text-align: center; /* Center the text */
     font-size: 18px; /* Optional: font size */
 }
+
